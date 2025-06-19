@@ -1,0 +1,29 @@
+/* Layout wrapper */
+.layout-container {
+  display: flex;
+}
+
+/* Sidebar fixed for desktop */
+.sidebar-wrapper {
+  width: 28%;
+  min-width: 250px;
+  /* max-width: 300px; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  z-index: 1000;
+  background-color: var(--sidebar-bg-color);
+  overflow-y: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Main content pushed by sidebar */
+.main-content {
+  margin-left: 20%;
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: margin-left 0.3s ease;
+}
+
