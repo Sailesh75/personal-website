@@ -1,11 +1,12 @@
 /* Layout wrapper */
 .layout-container {
   display: flex;
+  background-color: #f5f5fa;
 }
 
 /* Sidebar fixed for desktop */
 .sidebar-wrapper {
-  width: 28%;
+  width: 22%;
   min-width: 250px;
   /* max-width: 300px; */
   position: fixed;
