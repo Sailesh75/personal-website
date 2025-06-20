@@ -2,7 +2,7 @@
 // ------------
 // React sidebar with full-screen mobile overlay, cross icon toggle, and dark mode as a menu item. External CSS is used.
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import profileImg from '../assets/images/profile.jpg'; // adjust path as needed
 import '../styles/sidebar.css';
 
